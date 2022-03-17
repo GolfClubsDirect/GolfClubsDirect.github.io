@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>shop test</title>
+	<link rel="stylesheet" type="text/css" href="templates/static/templateStyle.css">
+	<link rel="stylesheet" type="text/css" href="templates/static/styles.css">
+</head>
+<body>
+	<!--title of webpage-->
+	<header>
+		<div class="header-banner">
+			<img class="logo" src="templates/img/logo/logo.png">
+        </div>
+        <div class="clear"></div>
+        <nav>
+            <div class="site-title">Golf Clubs Direct</div>
+            <ul>
+                <li><a href="./templates/index.html">Home page</a></li>
+                <li><a href="./templates/contact.html">Contact us</a></li>
+                <li><a href="./templates/aboutUs.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="BtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('Club')"> Clubs</button>
+        <button class="btn" onclick="filterSelection('Grip')"> Grips</button>
+        <button class="btn" onclick="filterSelection('Shaft')"> shafts</button>
+    </div>
+    <br>
+    <div class="float-container">
+      <div id="template"></div>
+    </div>
+    <script src="templates/app.js"></script>
+</body>
+</html>

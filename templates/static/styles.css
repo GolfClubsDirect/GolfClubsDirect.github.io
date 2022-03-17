@@ -1,0 +1,50 @@
+header {
+  height: 360px;
+}
+
+.header-banner {
+  background-color: #149279;
+  background-image: url(../img/homePage/golf.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+header img {
+  width: 1000px;
+  position: absolute;
+  top: 9vh;
+  right: 3%;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background: #292f36;
+  z-index: 10;
+}
+
+nav div {
+  color: white;
+  position: absolute;
+  left: 2%;
+  visibility: hidden;
+}
+
+nav ul { 
+  margin: 0 2% auto 0;
+  padding-left: 0;
+  text-align: right;
+}
+
+nav ul li { 
+  display: inline-block; 
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #fff;
+}

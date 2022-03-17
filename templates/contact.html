@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="stylesheet" href="static/contactUsStyle.css">
+  </head>
+  <body>
+    <script src="app.js"></script>
+    <header>
+      <div class="header-banner">
+          <img src="img/logo/logo.png">
+      </div>
+      <div class="clear"></div>
+      <nav>
+          <div class="site-title">Golf Clubs Direct</div>
+          <ul>
+              <li><a href="./index.html">Home page</a></li>
+              <li><a href="./contact.html">Contact us</a></li>
+              <li><a href="./aboutUs">About us</a></li>
+          </ul>
+      </nav>
+  </header>
+
+    <div class="container">
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Contact us</h3>
+          <p class="text">
+            If you have any questions or an enquiry contact us:
+          </p>
+          <div class="info">
+            <div class="information">
+              <p><b>location:</b> Local 7 Centro Comercial Costasol, Km 166, Estepona, Malaga 29680 España<br>
+              <b>phone number:</b> 952885309<br>
+              <b>Email:</b> golfclubsdirectspainorders@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="/form" method="POST">
+            <h3 class="title">send us a message:</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" placeholder="First Name" name="first_Name" required>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" placeholder="email" name="email" required>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" placeholder="Phone number" name="phone_Number">
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" placeholder="Message" name="message" required></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
