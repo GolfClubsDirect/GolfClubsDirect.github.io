@@ -171,7 +171,7 @@ const productData = [
   ];
   
   //function to create the box where the product will be displayed. It will create a new box for every product
-  function productTemplate(product) {
+  function productobject(product) {
 	return `
 	  <div class="filter product float-child ${product.type}">
 			 <div class="photo"> 
@@ -184,8 +184,8 @@ const productData = [
 	   </div>
 	`
   }
-  //add all of the products to the template
-  document.getElementById("template").innerHTML = `${productData.map(productTemplate).join("")}`;
+  //add all of the products to the object
+  document.getElementById("object").innerHTML = `${productData.map(productObject).join("")}`;
   
   //calls the filterSelection
   filterSelection("all")
