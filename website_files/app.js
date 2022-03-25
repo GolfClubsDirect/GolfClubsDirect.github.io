@@ -171,7 +171,7 @@ const productData = [
   ];
   
   //function to create the box where the product will be displayed. It will create a new box for every product
-  function productobject(product) {
+  function productObject(product) {
 	return `
 	  <div class="filter product float-child ${product.type}">
 			 <div class="photo"> 
